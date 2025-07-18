@@ -62,3 +62,4 @@ Modify the C source file to define the function and derivatives you wish to anal
 ```sh
 chmod +x framework.sh
 ./framework.sh
+command+Q
