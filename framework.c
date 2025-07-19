@@ -30,8 +30,8 @@ double complex calculate_H(Func f0,Func f1, Func f2, Func f3, double x, int n)
 
     // 4. H（H1とH2の幾何平均）を計算
     // csqrtは複素数の平方根を計算する
-    double complex H = csqrt(H1 * H2) * pow(2.0, -n);
-
+    //double complex H = csqrt(H1 * H2) * pow(2.0, -n);
+    double complex H=(H1+H2)/2.0*pow(2.0,-n);
     return H;
 }
 
